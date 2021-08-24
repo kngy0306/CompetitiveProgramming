@@ -40,3 +40,19 @@ if n != 1:
     ans[int(n)] = 1
 
 print(ans)
+
+# Counterを使用したハッシュマップ
+from collections import Counter
+
+name = "seira"
+d = {}
+if name in d:
+    d[name] += 1
+else:
+    d[name] = 1
+print(d)
+
+# Counterを使用する場合、↑のように冗長に書く必要がない
+d = Counter()
+d[name] += 1
+print(d)
