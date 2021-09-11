@@ -19,3 +19,10 @@ print(max("aaa", "aa"))
 
 x = [1, 2, 3]
 print(x[::-1])
+
+import sys
+input = sys.stdin.readline
+
+list(map(int, input().split())
+
+map(int, input().split()
