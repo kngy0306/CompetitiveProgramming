@@ -16,3 +16,6 @@ print(a if a < b else b)
 
 # 文字列でmax 辞書順
 print(max("aaa", "aa"))
+
+x = [1, 2, 3]
+print(x[::-1])
