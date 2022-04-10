@@ -12,3 +12,12 @@ for i in range(q):
     else:
         index = bisect.bisect_left(cut, b)
         cut.insert(index, b)
+
+
+
+
+
+
+
+
+
